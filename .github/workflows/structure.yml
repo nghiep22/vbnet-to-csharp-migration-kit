@@ -1,0 +1,15 @@
+name: Repository structure
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  structure:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate skills and artifact contracts
+        shell: pwsh
+        run: ./scripts/Test-Kit.ps1

@@ -1,0 +1,4 @@
+interface:
+  display_name: "VB Data and Interop Migration"
+  short_description: "Assess data, COM and reporting behavior"
+  default_prompt: "Dùng $vb-port-data-interop cho dự án VB.NET này theo mục tiêu C# .NET 8 và ghi rõ phần chưa kiểm chứng."

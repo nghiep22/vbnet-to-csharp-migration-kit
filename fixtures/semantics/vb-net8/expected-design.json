@@ -1,0 +1,10 @@
+{
+  "status": "not-run",
+  "basis": "Expected from language documentation; not captured from executing this fixture.",
+  "expectedLines": [
+    "round=2",
+    "compare=True",
+    "arrayLength=2",
+    "fallback=fallback"
+  ]
+}

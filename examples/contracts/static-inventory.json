@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "0.1",
+  "analysisMode": "static",
+  "semanticResolved": false,
+  "root": "synthetic-root",
+  "counts": {
+    "files": 2,
+    "vb": 1,
+    "projects": 1
+  },
+  "projects": [
+    {
+      "path": "ReferenceProbe.vbproj",
+      "parseStatus": "parsed",
+      "targetDeclarations": [
+        "net8.0"
+      ],
+      "workloadHints": [
+        "console"
+      ],
+      "references": []
+    }
+  ],
+  "limitations": [
+    "Synthetic example; project properties are not evaluated by MSBuild."
+  ]
+}

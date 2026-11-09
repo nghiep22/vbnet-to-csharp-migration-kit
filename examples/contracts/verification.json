@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "0.1",
+  "runId": "synthetic-design-example",
+  "origin": "synthetic-example",
+  "baselineSnapshotId": "not-captured",
+  "targetSnapshotId": "not-created",
+  "cases": [
+    {
+      "id": "CASE-001",
+      "category": "semantic",
+      "status": "not-run",
+      "reason": "Design example. Neither VB reference nor C# target was executed.",
+      "evidence": []
+    }
+  ]
+}

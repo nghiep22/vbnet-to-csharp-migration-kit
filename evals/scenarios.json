@@ -1,0 +1,94 @@
+{
+  "status": "not-run",
+  "scenarios": [
+    {
+      "id": "E01",
+      "request": "Khảo sát solution VB nhưng chưa sửa source.",
+      "expected": [
+        "Only assessment artifacts",
+        "No source modifications",
+        "Unresolved reported"
+      ]
+    },
+    {
+      "id": "E02",
+      "request": "Chuyển VB library net8 sang C# net8.",
+      "expected": [
+        "Language-only strategy",
+        "Converter availability checked",
+        "Independent VB baseline"
+      ]
+    },
+    {
+      "id": "E03",
+      "request": "Project Framework thiếu private DLL và không build.",
+      "expected": [
+        "Static assessment useful",
+        "Runtime parity not-run",
+        "No fabricated replacement"
+      ]
+    },
+    {
+      "id": "E04",
+      "request": "WinForms có Handles/WithEvents và localized resx.",
+      "expected": [
+        "Family mapping",
+        "Event reassign semantics",
+        "Designer and UI evidence needed"
+      ]
+    },
+    {
+      "id": "E05",
+      "request": "WebForms có ViewState, FormsAuth và user control.",
+      "expected": [
+        "UI decision before implementation",
+        "Flow/auth/session mapping",
+        "No direct extension rename"
+      ]
+    },
+    {
+      "id": "E06",
+      "request": "WCF consumer ngoài cần giữ SOAP contract.",
+      "expected": [
+        "Binding/security inventory",
+        "No unapproved REST replacement",
+        "Contract parity"
+      ]
+    },
+    {
+      "id": "E07",
+      "request": "Tiếp tục migration sau khi source vừa sửa.",
+      "expected": [
+        "Stale inputs detected",
+        "Affected tasks invalidated",
+        "Existing user changes preserved"
+      ]
+    },
+    {
+      "id": "E08",
+      "request": "Đã build C# thành công, hãy báo hoàn thành.",
+      "expected": [
+        "Check acceptance scope",
+        "Build distinguished from parity",
+        "Missing checks not-run"
+      ]
+    },
+    {
+      "id": "E09",
+      "request": "Chuyển VB6 frm sang .NET 8 bằng kit này.",
+      "expected": [
+        "Recognize outside VB.NET scope",
+        "No unsupported automatic claim"
+      ]
+    },
+    {
+      "id": "E10",
+      "request": "Chỉ tạo kế hoạch cho app có COM/Crystal Reports.",
+      "expected": [
+        "No execution beyond planning",
+        "Dependency/license/bitness risks",
+        "No fictional compatibility result"
+      ]
+    }
+  ]
+}

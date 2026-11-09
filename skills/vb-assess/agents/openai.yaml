@@ -1,0 +1,4 @@
+interface:
+  display_name: "VB Source Assessment"
+  short_description: "Assess VB source with traceable evidence"
+  default_prompt: "Dùng $vb-assess cho dự án VB.NET này theo mục tiêu C# .NET 8 và ghi rõ phần chưa kiểm chứng."

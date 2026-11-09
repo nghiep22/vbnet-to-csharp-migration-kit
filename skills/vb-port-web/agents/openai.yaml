@@ -1,0 +1,4 @@
+interface:
+  display_name: "VB Web Application Migration"
+  short_description: "Plan and port legacy VB web workloads"
+  default_prompt: "Dùng $vb-port-web cho dự án VB.NET này theo mục tiêu C# .NET 8 và ghi rõ phần chưa kiểm chứng."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "VB to C# Conversion"
+  short_description: "Guide semantic-preserving VB conversion"
+  default_prompt: "Dùng $vb-convert cho dự án VB.NET này theo mục tiêu C# .NET 8 và ghi rõ phần chưa kiểm chứng."

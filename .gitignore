@@ -1,0 +1,13 @@
+# Generated app artifacts may include proprietary source/data
+migration/
+artifacts/
+**/bin/
+**/obj/
+.vs/
+.env
+.env.*
+*.user
+*.suo
+*.binlog
+*.trx
+TestResults/

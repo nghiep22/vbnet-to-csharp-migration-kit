@@ -1,0 +1,4 @@
+interface:
+  display_name: "VB Migration Runtime Port"
+  short_description: "Port converted projects to .NET 8"
+  default_prompt: "Dùng $vb-port-net8 cho dự án VB.NET này theo mục tiêu C# .NET 8 và ghi rõ phần chưa kiểm chứng."

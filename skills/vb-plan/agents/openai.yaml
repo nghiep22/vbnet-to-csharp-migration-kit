@@ -1,0 +1,4 @@
+interface:
+  display_name: "VB Migration Planning"
+  short_description: "Plan migration tasks and evidence gates"
+  default_prompt: "Dùng $vb-plan cho dự án VB.NET này theo mục tiêu C# .NET 8 và ghi rõ phần chưa kiểm chứng."

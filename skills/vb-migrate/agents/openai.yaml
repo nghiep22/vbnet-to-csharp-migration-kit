@@ -1,0 +1,4 @@
+interface:
+  display_name: "VB Migration Workflow"
+  short_description: "Coordinate a VB to C# migration workflow"
+  default_prompt: "Dùng $vb-migrate cho dự án VB.NET này theo mục tiêu C# .NET 8 và ghi rõ phần chưa kiểm chứng."

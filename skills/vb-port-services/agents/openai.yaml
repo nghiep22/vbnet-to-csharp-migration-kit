@@ -1,0 +1,4 @@
+interface:
+  display_name: "VB Service Migration"
+  short_description: "Preserve service lifecycle and contracts"
+  default_prompt: "Dùng $vb-port-services cho dự án VB.NET này theo mục tiêu C# .NET 8 và ghi rõ phần chưa kiểm chứng."

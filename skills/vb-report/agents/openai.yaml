@@ -1,0 +1,4 @@
+interface:
+  display_name: "VB Migration Reporting"
+  short_description: "Report migration scope and evidence"
+  default_prompt: "Dùng $vb-report cho dự án VB.NET này theo mục tiêu C# .NET 8 và ghi rõ phần chưa kiểm chứng."

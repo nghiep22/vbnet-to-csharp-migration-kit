@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "0.1",
+  "runId": "synthetic-design-example",
+  "origin": "synthetic-example",
+  "analysisMode": "static",
+  "semanticResolved": false,
+  "coverage": {
+    "filesSeen": 2,
+    "filesAnalyzed": 2,
+    "limitations": [
+      "Synthetic illustration only; no compilation or runtime analysis."
+    ]
+  },
+  "projects": [
+    {
+      "path": "fixtures/semantics/vb-net8/ReferenceProbe.vbproj",
+      "language": "VB",
+      "workload": "console"
+    }
+  ],
+  "findings": [
+    {
+      "id": "FIND-001",
+      "ruleId": "VB-ROUNDING",
+      "severity": "high",
+      "claimType": "fact",
+      "message": "CInt conversion requires rounding parity evidence.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "path": "fixtures/semantics/vb-net8/Program.vb",
+          "kind": "source",
+          "symbol": "ReferenceProbe.Main"
+        }
+      ],
+      "action": "Run VB reference and migrated C# on midpoint/boundary inputs."
+    }
+  ],
+  "unresolved": [
+    "No converter selected or executed."
+  ]
+}

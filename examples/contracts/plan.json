@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "0.1",
+  "runId": "synthetic-design-example",
+  "sourceSnapshotId": "synthetic-snapshot-not-a-git-commit",
+  "strategy": "assessment-only",
+  "decisions": [
+    {
+      "id": "DEC-001",
+      "topic": "Converter/toolchain",
+      "status": "open",
+      "value": "Select after compatibility POC."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "TASK-001",
+      "title": "Establish independent VB baseline",
+      "skill": "vb-baseline",
+      "dependsOn": [],
+      "status": "pending",
+      "acceptance": [
+        "Legacy build and behavior evidence recorded, or explicitly not-run."
+      ]
+    }
+  ]
+}

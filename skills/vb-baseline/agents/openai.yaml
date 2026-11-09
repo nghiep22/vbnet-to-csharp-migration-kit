@@ -1,0 +1,4 @@
+interface:
+  display_name: "VB Behavioral Baseline"
+  short_description: "Capture the legacy VB behavior baseline"
+  default_prompt: "Dùng $vb-baseline cho dự án VB.NET này theo mục tiêu C# .NET 8 và ghi rõ phần chưa kiểm chứng."

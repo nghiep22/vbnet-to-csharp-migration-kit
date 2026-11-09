@@ -1,0 +1,4 @@
+interface:
+  display_name: "VB WinForms Migration"
+  short_description: "Preserve WinForms behavior during port"
+  default_prompt: "Dùng $vb-port-winforms cho dự án VB.NET này theo mục tiêu C# .NET 8 và ghi rõ phần chưa kiểm chứng."

@@ -1,0 +1,17 @@
+{
+  "status": "design-only",
+  "targetFramework": "net8.0",
+  "targetLanguageVersion": "12",
+  "converter": {
+    "candidate": "ICSharpCode.CodeConverter",
+    "version": null,
+    "mode": null,
+    "verified": false
+  },
+  "sourceFramework": null,
+  "hostRuntime": null,
+  "msbuild": null,
+  "notes": [
+    "This is not an operational lock file. Select and verify versions in the POC."
+  ]
+}

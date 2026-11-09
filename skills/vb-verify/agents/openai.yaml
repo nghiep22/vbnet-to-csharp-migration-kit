@@ -1,0 +1,4 @@
+interface:
+  display_name: "VB Migration Verification"
+  short_description: "Compare legacy and migrated app behavior"
+  default_prompt: "Dùng $vb-verify cho dự án VB.NET này theo mục tiêu C# .NET 8 và ghi rõ phần chưa kiểm chứng."
