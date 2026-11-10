@@ -33,4 +33,4 @@ Chuyển theo project/nhóm project phụ thuộc; không yêu cầu solution bu
 
 ## Ngôn ngữ và host
 
-Tài liệu hướng tới người dùng Việt Nam. Skill dùng tên kỹ thuật ổn định. Skill có thể tự dùng bằng đọc file; package host/MCP là adapter tùy chọn. Các command vbm trong tài liệu là đặc tả tương lai.
+Tài liệu hướng tới người dùng tên kỹ thuật ổn định. Skill có thể tự dùng bằng đọc file; package host/MCP là adapter tùy chọn. Các command vbm trong tài liệu là đặc tả tương lai.
