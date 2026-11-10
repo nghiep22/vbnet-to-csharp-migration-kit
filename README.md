@@ -72,4 +72,4 @@ Ngày đối chiếu nguồn: **09/11/2026**. Theo [lịch Microsoft](https://do
 
 ## License
 
-[MIT](LICENSE), nội dung mới thuộc nghiep22. [NOTICE](NOTICE.md) ghi nguồn tham khảo; đọc source tham khảo không đồng nghĩa đã chạy thử hoặc sao chép mã từ repo đó.
+
