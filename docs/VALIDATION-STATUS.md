@@ -22,3 +22,11 @@ Test-Kit chỉ đo cấu trúc repo, không xác nhận skill có quyết địn
 - Test-Kit.ps1: pass cho 12 skill, 6 ví dụ schema, liên kết nội bộ và cú pháp PowerShell.
 - Install-Skills.ps1 với hai skill và -WhatIf: pass; không chép/cài vào dự án nào.
 - Chưa chạy fixture VB, converter hoặc khảo sát source ứng dụng.
+
+## Kiểm tra bản mở rộng guide — 16/11/2026
+
+- Source tham chiếu: commit 6c1550e trên nhánh main, dùng làm nền cho bản mở rộng 12 guide.
+- PowerShell 7 trên Windows: pwsh -NoProfile -File ./scripts/Test-Kit.ps1 — exit 0; pass 12 skill, 6 schema example, liên kết nội bộ và cú pháp PowerShell. Đây là kiểm tra cấu trúc.
+- git diff --check — exit 0, không có lỗi whitespace.
+- quick_validate.py của skill-creator chưa chạy vì môi trường không có Python interpreter (lệnh python chỉ trỏ tới Microsoft Store alias). Test-Kit đã kiểm tra frontmatter/name/link theo hợp đồng của repo.
+- Chưa chạy eval scenarios, converter, fixture VB/C# hoặc migration ứng dụng. Release status vẫn design-only.

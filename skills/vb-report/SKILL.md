@@ -35,4 +35,4 @@ Báo cáo hiện trạng/migration, completion accounting, unresolved decisions 
 
 ## Đọc khi cần
 
-[Hướng dẫn chuyên biệt](references/guide.md) giải thích quyết định, ca biên và giới hạn của bước này. Đọc khi thực hiện phần tương ứng.
+Khi thực hiện skill này, đọc [hướng dẫn chuyên biệt](references/guide.md) để chọn case, bằng chứng và tiêu chí hoàn tất phù hợp.
